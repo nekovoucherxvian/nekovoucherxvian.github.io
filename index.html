@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nama Kamu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="top-header" id="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="Logo">
+      </div>
+      <nav class="nav-links">
+        <a href="#about" class="quick-link">Tentang</a>
+        <a href="#projects" class="quick-link">Proyek</a>
+        <a href="#contact" class="quick-link">Kontak</a>
+        <button class="login-btn" disabled>Login</button>
+      </nav>
+      <div class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+      <button class="login-btn mobile" disabled>Login</button>
+    </div>
+  </header>
+
+  <!-- Overlay untuk mobile menu -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- Hero Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Halo, aku [Nama Kamu]</h1>
+      <p>Web Developer & Designer</p>
+      <a href="#about" class="btn animate-btn">Lihat Profil</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section animate-section">
+    <h2>Tentang Saya</h2>
+    <p>Aku adalah developer yang menyukai desain minimalis dan teknologi modern.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section animate-section">
+    <h2>Proyek</h2>
+    <p>Beberapa proyek yang pernah aku buat.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section animate-section">
+    <h2>Kontak</h2>
+    <p>Hubungi aku via email atau media sosial!</p>
+  </section>
+
+  <!-- FOOTER BARU (GAYA CONTOH) -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <!-- Kolom 1: Logo + Tentang -->
+      <div class="footer-col about-col">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <h3>Tentang</h3>
+        <p>Developer yang menyukai desain minimalis dan teknologi modern.</p>
+      </div>
+
+      <!-- Kolom 2: Quick Links -->
+      <div class="footer-col quick-links-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 3: Kontak & Sosial -->
+      <div class="footer-col contact-col">
+        <h3>Kontak & Sosial</h3>
+        <p>Email: enablemanagement@gmail.com</p>
+        <p>WA: wa.me/6281999900273</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sub-footer -->
+  <footer class="sub-footer">
+    <p>&copy; 2025 [Nama Kamu]. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
